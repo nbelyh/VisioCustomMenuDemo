@@ -15,8 +15,20 @@
     <!-- for a shape (when selected, there are other options as well) -->
     <contextMenu idMso="ContextMenuShape">
       <!-- "tag" and some other attributes are used just for demo purposes, minimum is just 'id' -->
-      <button id="item1" tag="RECT" imageMso="HappyFace" label="Rectangle" onAction="OnContextMenuItemClicked" getEnabled="OnContextMenuItemEnabled" getVisible="OnContextMenuItemVisible" />
-      <button id="item2" label="Circle" onAction="OnContextMenuItemClicked" getEnabled="OnContextMenuItemEnabled" getVisible="OnContextMenuItemVisible" />
+      <button id="item1" 
+              tag="RECT" 
+              imageMso="HappyFace" 
+              label="Rectangle" 
+              onAction="OnContextMenuItemClicked" 
+              getEnabled="OnContextMenuItemEnabled" 
+              getVisible="OnContextMenuItemVisible" 
+              />
+      <button id="item2" 
+              label="Circle" 
+              onAction="OnContextMenuItemClicked" 
+              getEnabled="OnContextMenuItemEnabled" 
+              getVisible="OnContextMenuItemVisible" 
+              />
     </contextMenu>
   </contextMenus>
 </customUI>
