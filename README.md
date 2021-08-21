@@ -3,7 +3,7 @@
 This sample project shows how one can add a custom **context menu** to a Visio VSTO add-in.
 
 - You start off with "New Project" => "Visio VSTO Add-in".
-- Then you add a Ribbon using right click on project, then Add => New Component => Ribbon (as XML)
+- Then you add a Ribbon using right click on project, then Add => New Item => Ribbon (as XML)
 - Then you can modify the Ribbon1.xml and Ribbon1.cs as in this project
 
 The points that are demonstrated by this project:
