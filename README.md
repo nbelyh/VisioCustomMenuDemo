@@ -1,5 +1,7 @@
 # VisioCustomMenuDemo
 
+![image](https://user-images.githubusercontent.com/528366/130318567-bcb8fdeb-ddce-4315-9fb0-c00643d49d6d.png)
+
 This sample project shows how one can add a custom **context menu** to a Visio VSTO add-in.
 
 - You start off with "New Project" => "Visio VSTO Add-in".
@@ -18,7 +20,5 @@ Running the thing (Microsoft Visio desktop must be installed):
 
 You should see a ribbon button added by the demo (Add-ins => Click Me)
 If you click it, it creates a sample diagram (where you can test the context menus)
-
-![image](https://user-images.githubusercontent.com/528366/130318567-bcb8fdeb-ddce-4315-9fb0-c00643d49d6d.png)
 
 The demo menu item ("Rectangle") just paints the selected shape to red, and adds some text to it.
