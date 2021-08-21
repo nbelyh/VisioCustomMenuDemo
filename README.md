@@ -22,3 +22,5 @@ You should see a ribbon button added by the demo (Add-ins => Click Me)
 If you click it, it creates a sample diagram (where you can test the context menus)
 
 The demo menu item ("Rectangle") just paints the selected shape to red, and adds some text to it.
+
+[context (forum topic)](http://visguy.com/vgforum/index.php?topic=9646.0)
