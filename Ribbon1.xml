@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="MyGroup" label="My Group">
+          <button size="large" id="hello" label="Click Me" onAction="OnClickMe" imageMso="HappyFace" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+
+  <!-- context menus -->
+  <contextMenus>
+    <!-- for a shape (when selected, there are other options as well) -->
+    <contextMenu idMso="ContextMenuShape">
+      <!-- "tag" and some other attributes are used just for demo purposes, minimum is just 'id' -->
+      <button id="item1" tag="RECT" imageMso="HappyFace" label="Rectangle" onAction="OnContextMenuItemClicked" getEnabled="OnContextMenuItemEnabled" getVisible="OnContextMenuItemVisible" />
+      <button id="item2" label="Circle" onAction="OnContextMenuItemClicked" getEnabled="OnContextMenuItemEnabled" getVisible="OnContextMenuItemVisible" />
+    </contextMenu>
+  </contextMenus>
+</customUI>
+
