@@ -1,12 +1,12 @@
 # VisioCustomMenuDemo
 
-![image](https://user-images.githubusercontent.com/528366/130318567-bcb8fdeb-ddce-4315-9fb0-c00643d49d6d.png)
-
 This sample project shows how one can add a custom **context menu** to a Visio VSTO add-in.
 
 - You start off with "New Project" => "Visio VSTO Add-in".
 - Then you add a Ribbon using right click on project, then Add => New Item => Ribbon (as XML)
 - Then you can modify the Ribbon1.xml and Ribbon1.cs as in this project
+
+![image](https://user-images.githubusercontent.com/528366/130318567-bcb8fdeb-ddce-4315-9fb0-c00643d49d6d.png)
 
 The points that are demonstrated by this project:
 - calling the add-in code when user click the menu item (specified in the "onAction" attribute)
